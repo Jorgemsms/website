@@ -1,0 +1,66 @@
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    background: #fff;
+    margin: 50px;
+}
+#left_Side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+#right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+#imgperfil{
+    width:150px;
+    height:150px;
+    border-radius:75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#textB{
+    font-size: 12px;
+    font-weight: bolder;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#textA{
+    font-size: 12px;
+    font-weight: bolder;
+    color:#007EFF ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#textN{
+    font-size: 12px;
+    color:black ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#titulosB{
+    font-size: 15px;
+    font-weight: bolder;
+    color:#fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#titulosA{
+    font-size: 15px;
+    font-weight: bolder;
+    color:#003147;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#icons{
+    color: #007EFF;
+}
